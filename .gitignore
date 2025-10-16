@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations (optional: only if you want to exclude generated migrations)
+# **/migrations/*.py
+# **/migrations/*.pyc
+# !**/migrations/__init__.py
+
+# Media and static files
+/media/
+staticfiles/
+static/
+
+# Environment variables and secret settings
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache
+
+# Test and debug artifacts
+.pytest_cache/
+nosetests.xml
+test_db.sqlite3
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint-report.txt
+pylint-global.rc
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+
+# Node modules (if using webpack or npm for static assets)
+node_modules/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Gunicorn
+gunicorn.pid
+
+# Docker
+*.pid
+*.tar
+*.log
+docker-compose.override.yml
+
+# System files
+Thumbs.db
